@@ -1,0 +1,109 @@
+/*Variable Css*/
+:root{
+    --background-color-text:#FF00A6;
+    --background-color-text-border:2px 2px 0px white, /* Sombra hacia abajo a la derecha */
+    -2px 2px 0px white, /* Sombra hacia abajo a la izquierda */
+    2px -2px 0px white, /* Sombra hacia arriba a la derecha */
+    -2px -2px 0px white, /* Sombra hacia arriba a la izquierda */
+    2px 0px 0px white, /* Sombra a la derecha */
+    -2px 0px 0px white, /* Sombra a la izquierda */
+    0px 2px 0px white, /* Sombra hacia abajo */
+    0px -2px 0px white; /* Sombra hacia arriba */;
+    --background-color-btn-border:#FF00A6;
+    --background-color-btn:#000000;
+    --width-icon:30px;
+    --height-icon:30px;
+    --width-icon--skills:70px;
+    --height-icon--skills:70px;
+    --font-family--tittle: "Potta One", system-ui;
+    --border-btn-menu:2px;
+}
+
+.title-main{
+        color: var(--background-color-text);
+        font-family: var(--font-family--tittle);  
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: var(--background-color-text-border);
+       
+
+          
+          
+}
+
+.text-description{
+    color: var(--background-color-text);
+    text-align: justify;
+}
+
+.btn-menu{
+    background-color: #FF00A6;
+}
+
+/*buttom  of menu */
+#btn-about-me{
+    border-left:var(--border-btn-menu) solid white;
+    border-top: var(--border-btn-menu) solid white;
+    border-bottom: var(--border-btn-menu) solid white;
+    border-right: none;
+}
+
+#btn-skills{    
+    border-left: none;
+    border-top: var(--border-btn-menu) solid white;
+    border-bottom: var(--border-btn-menu) solid white;
+    border-right: none;
+}
+
+#btn-education{
+    
+    border-left: none;
+    border-top: var(--border-btn-menu) solid white;
+    border-bottom: var(--border-btn-menu) solid white;
+    border-right: none;
+}
+
+#btn-projects{
+    border-left: none;
+    border-right: var(--border-btn-menu) solid white;
+    border-top: var(--border-btn-menu) solid white;
+    border-bottom: var(--border-btn-menu) solid white;
+}
+
+.btn-cv{
+    background-color: var(--background-color-btn) ;
+    color: var(--background-color-text);
+    border: 2px solid var(--background-color-btn-border);
+}
+
+.btn-cv:hover{
+    background-color: #FF00A6;
+    color:white;
+}
+
+.icon-social-media{
+    width: var(--width-icon);
+    height:var(--height-icon);
+}
+.icon-skill-database{
+    width: var(--width-icon--skills);
+    height:var(--height-icon--skills);
+    
+}
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  
+  .full-screen {
+    display: flex; /* Usamos Flexbox para facilitar el centrado */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    height: 100vh; /* Hace que el div abarque el 100% de la altura de la pantalla */
+    background-color: black; /* Color de fondo (puedes cambiarlo según tu preferencia) */
+  }
+  .centered-text {
+    text-align: center; /* Centra el texto dentro del div */
+  }
